@@ -1,2 +1,29 @@
-# AoC24
-Advent of Code 24 challenges solutions
+# Advent of Code 2024
+
+## Table of Contents
+
+1. [Day 1: Historian Hysteria](#day-1-historian-hysteria)
+2. [Day 2: ???](#day-2)
+3. [Day 3: ???](#day-3)
+4. [Day 4: ???](#day-4)
+5. [Day 5: ???](#day-5)
+6. [Day 6: ???](#day-6)
+7. [Day 7: ???](#day-7)
+8. [Day 8: ???](#day-8)
+9. [Day 9: ???](#day-9)
+10. [Day 10: ???](#day-10)
+11. [Day 11: ???](#day-11)
+12. [Day 12: ???](#day-12)
+13. [Day 13: ???](#day-13)
+14. [Day 14: ???](#day-14)
+15. [Day 15: ???](#day-15)
+16. [Day 16: ???](#day-16)
+17. [Day 17: ???](#day-17)
+18. [Day 18: ???](#day-18)
+19. [Day 19: ???](#day-19)
+20. [Day 20: ???](#day-20)
+21. [Day 21: ???](#day-21)
+22. [Day 22: ???](#day-22)
+23. [Day 23: ???](#day-23)
+24. [Day 24: ???](#day-24)
+25. [Day 25: ???](#day-25)
