@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. [Day 1: Historian Hysteria](#day-1-historian-hysteria)
+1. [Day 1: Historian Hysteria][(#day-1-historian-hysteria)](https://github.com/aleixsegura/AoC24/blob/main/python/day1/main.py)
 2. [Day 2: ???](#day-2)
 3. [Day 3: ???](#day-3)
 4. [Day 4: ???](#day-4)
