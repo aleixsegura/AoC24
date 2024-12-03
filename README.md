@@ -4,7 +4,7 @@
 
 1. [Day 1: Historian Hysteria](https://github.com/aleixsegura/AoC24/blob/main/python/day1/main.py)
 2. [Day 2: Red-Nosed Reports](https://github.com/aleixsegura/AoC24/blob/main/python/day2/main.py)
-3. [Day 3: ???](#day-3)
+3. [Day 3: Mull It Over](https://github.com/aleixsegura/AoC24/blob/main/python/day3/main.py)
 4. [Day 4: ???](#day-4)
 5. [Day 5: ???](#day-5)
 6. [Day 6: ???](#day-6)
