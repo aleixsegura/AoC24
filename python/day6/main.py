@@ -12,27 +12,22 @@ def get_start_pos(map_: List[List[str]]) -> Tuple[int, int]:
                 return i, j
     raise Exception('No guard in map')
 
-def turnclockwise(guard_position: str):
+def turnclockwise(guard_position: str) -> str:
     directions = {'^': '>', '>': 'v', 'v': '<', '<': '^'}
     return directions.get(guard_position, None)
 
-def get_next_dir(guard_position: str):
+def get_next_dir(guard_position: str) -> str:
     direction = {'^': (-1, 0), '>': (0, 1), 'v': (1, 0), '<': (0, -1)}
     return direction.get(guard_position, None)
 
-def has_obstacle_infront(forward_element: str):
-    return forward_element == '#'
-
-def is_guard(symbol: str):
+def is_guard(symbol: str) -> bool:
     return symbol in ['^', '>', 'v', '<',]
 
-
-def is_out_of_map(i: int, j: int, ilimit: int, jlimit: int):
+def is_out_of_map(i: int, j: int, ilimit: int, jlimit: int) -> bool:
     return i < 0 or i > ilimit or j < 0 or j > jlimit
 
 
 i_initial, j_initial = get_start_pos(read_map())
-
 
 def count_distinct_positions(map_: List[List[str]]) -> int:
     distinct_positions = 0
@@ -54,7 +49,7 @@ def count_distinct_positions(map_: List[List[str]]) -> int:
             escaped = True
             break
         forward_element = map_[future_pos_i][future_pos_j]
-        if not has_obstacle_infront(forward_element):
+        if forward_element != '#':
             if forward_element != 'X':
                 distinct_positions += 1
             current_pos_i = future_pos_i
@@ -64,7 +59,7 @@ def count_distinct_positions(map_: List[List[str]]) -> int:
             current_pos = turnclockwise(guard_position)
     return distinct_positions
 
-def is_cycle(map_) -> bool:
+def is_cycle(map_: List[List[str]]) -> bool:
     ROWS = len(map_)
     COLUMNS = len(map_[0])
     visited = set()
@@ -91,7 +86,7 @@ def is_cycle(map_) -> bool:
         else:
             return False
 
-def count_cycles(map_):
+def count_cycles(map_: List[List[str]]) -> int:
     cycles = 0
     ROWS = len(map_)
     COLUMNS = len(map_[0])
