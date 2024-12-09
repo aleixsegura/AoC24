@@ -7,7 +7,7 @@
 3. [Day 3: Mull It Over](https://github.com/aleixsegura/AoC24/blob/main/python/day3/main.py)
 4. [Day 4: Ceres Search](https://github.com/aleixsegura/AoC24/blob/main/python/day4/main.py)
 5. [Day 5: Print Queue](https://github.com/aleixsegura/AoC24/blob/main/python/day5/main.py)
-6. [Day 6: ???](#day-6)
+6. [Day 6: Guard Gallivant](https://github.com/aleixsegura/AoC24/blob/main/python/day6/main.py)
 7. [Day 7: ???](#day-7)
 8. [Day 8: ???](#day-8)
 9. [Day 9: ???](#day-9)
